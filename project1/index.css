@@ -108,8 +108,7 @@
     padding-top: 10px;
 }
 
-.footer {
-    position: fixed;
+.navbar {
     left: 0;
     bottom: 0;
     width: 100%;
