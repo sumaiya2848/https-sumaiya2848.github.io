@@ -1,0 +1,88 @@
+.text{
+    border: 3px double pink;
+    text-shadow: 5px 10px 30px black;
+    text-align: center;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: monospace;
+    font-size: 40px;
+}
+
+.image1{
+    width: 90%;
+    height: 50%;
+    border: 3px solid pink;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+.image3{
+    width: 90%;
+    height: 50%;
+    border: 3px solid pink;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+.subblock1{
+    float: left;
+    width: 30%;
+    height: 100%;
+    margin-left: 18px;
+}
+
+.subblock2{
+    border: 3px solid lightblue; 
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    width: 27%;
+    background-color: lightpink;
+    color: gray;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 58px;
+    margin: 10px;
+    margin-left: 35px;
+    box-shadow: 10px 10px 5px gray;
+}
+
+.subblock3{
+    float: right;
+    width: 30%;
+    height: 100%;
+}
+
+.imageblock{
+    border: 2px dotted lightblue;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 12px;
+}
+
+.p1{
+    font-family: monospace;
+    font-size: 20px;
+    border: 3px dotted yellow;
+    background-color: lightblue;
+}
+
+.p2{
+    font-family: monospace;
+    font-size: 20px;
+    text-shadow: 5px 10px 5px black;
+    border: 3px double cornflowerblue;
+}
+
+.p3{
+    font-family: monospace;
+    border: 5px dotted cadetblue;
+    font-size: 30px;
+    background-color: rgb(206, 139, 206);
+}
+
+.p4{
+    font-family: monospace;
+    border: 3px double lightcoral;
+}
