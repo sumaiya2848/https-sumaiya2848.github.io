@@ -1,0 +1,181 @@
+.block1{
+    text-align: center;
+    border: 2px solid red;
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    padding-bottom: 5%;
+}
+
+.image1{
+    margin: auto;
+    width: 50%;
+}
+
+.snack1{
+    padding-top: 10%;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.click{
+    text-align: center;
+    background-color: orange;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    width: 60%;
+}
+
+.click a{
+    text-decoration: none;
+}
+
+.modalWindow{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(190, 232, 252, 0.5);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modalWindow:target{
+    opacity: 1;
+    pointer-events: auto;
+    transition: ease-in 0.5s;
+}
+
+.msgText{
+    position: relative;
+    width: 60%;
+    margin: auto;
+    background-color: lightsalmon;
+}
+
+.msgText h1{
+    padding: 20px;
+    background-color: Pink;
+    color: white;
+}
+
+.msgText p{
+    padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+    background-color: pink;
+    color: black;
+}
+
+.apple{
+    padding-right: 50%;
+}
+
+.msgText img{
+    width: 50%;
+    height: auto;
+    margin-left: 10%;
+}
+
+.close{
+    color: teal;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: purple;
+    margin-left: 70%;
+}
+
+/*modal window 2*/
+
+
+.block2{
+    text-align: center;
+    border: 2px solid red;
+    float: right;
+    width: 40%;
+    margin-right: 5%;
+    padding-bottom: 5%;
+}
+
+.image2{
+    margin: auto;
+    width: 50%;
+}
+
+.snack2{
+    padding-top: 10%;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.click1{
+    text-align: center;
+    background-color: orange;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    width: 60%;
+}
+
+.click1 a{
+    text-decoration: none;
+}
+
+.modalWindow1{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(190, 232, 252, 0.5);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modalWindow1:target{
+    opacity: 1;
+    pointer-events: auto;
+    transition: ease-in 0.5s;
+}
+
+.msgText1{
+    position: relative;
+    width: 60%;
+    margin: auto;
+    background-color: lightblue;
+}
+
+.msgText1 h1{
+    padding: 20px;
+    background-color: Pink;
+    color: white;
+}
+
+.msgText1 p{
+    padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+    background-color: pink;
+    color: black;
+}
+
+.msgText1 img{
+    width: 50%;
+    height: auto;
+    margin-left: 10%;
+}
+
+.x{
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+    margin-left: 82%;
+    margin-top: 90%;
+}
