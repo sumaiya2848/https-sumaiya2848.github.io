@@ -389,13 +389,6 @@ body{
 
 
 
-
-
-
-
-
-
-
 .footer{
     background-color: black;
     margin: auto;
@@ -441,12 +434,10 @@ body{
     margin-left: 62%;  
 }
 
-.logo{
+.logo2{
     text-align: center;
     width: 8%;
     margin-left: 5%;
-    text-decoration: none;
-    border: 0px !important;
 }
 
 .bottom{
