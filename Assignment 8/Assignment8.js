@@ -40,6 +40,7 @@ else if ((netsAvg === knicksAvg) && (netsAvg >= 100)) {
     console.log("Draw");
 }
 
+
 //B
 let bill = 0;
 let tip = 0;
@@ -66,19 +67,18 @@ switch(amount) {
     bill = 430;
     console.log("The bill was " + bill + ", the tip was " + tip + ", and the total value " + total + ".");
 
+
 //C
 function celsiusToFahrenheit(C) {
-    let F = ((9 / 5) * (C) + 32);
-    console.log(C + " degrees celsius is " + F + " degrees fahrenheit");
+    let F = ((9 / 5) * C + 32);
+    console.log(C + "\u00B0C is " + F + "\u00B0F.");
 }
 let C = 22;
 celsiusToFahrenheit(C);
 
-
-
 function fahrenheitToCelsius(F) {
-    let C = ((F - 32) * 5) / 9;
-    console.log(F + " degrees fahrenheit is " + C + " degrees celsius");
+    let C = ((F - 32) * (5 / 9));
+    console.log(F + "\u00B0F is " + C + "\u00B0C.");
 }
 let F = 65;
 fahrenheitToCelsius(F);
