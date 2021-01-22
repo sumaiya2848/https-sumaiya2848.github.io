@@ -44,20 +44,17 @@ else if ((netsAvg === knicksAvg) && (netsAvg >= 100)) {
 //B
 let bill = 0;
 let tip = 0;
-let amount = ((bill >= 30) && (bill <= 300));
-switch(amount) {
-    case true:
+switch(true) {
+    case ((bill >= 30) && (bill <= 300)):
         tip = (0.15 * bill);
         break;
-    case false:
+    default:
         tip = (0.20 * bill);
         break;
-    default:
-        console.log("Invalid");
     }
-    
-    let total = bill + tip;
 
+    let total = bill + tip;
+    
     bill = 275;
     console.log("The bill was " + bill + " the tip was " + tip + " and the total value " + total + ".");
 
