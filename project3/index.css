@@ -51,7 +51,7 @@ body{
 .score{
     margin-top: 8%;
     float: left;
-    margin-left: 15%;
+    margin-left: 25%;
     font-size: 120%
 }
 
@@ -62,13 +62,13 @@ body{
 .enter{
     margin-top: 8%;
     float: right;
-    margin-right: 25%;
+    margin-right: 30%;
 }
 
 .text1{
     position: absolute;
-    width: 12%;
-    height: 95px;
+    width: 13%;
+    height: 115px;
     background-color: transparent;
     border: white 2px solid;
     text-align: center;
@@ -77,12 +77,13 @@ body{
 }
 
 .submit{
-    margin-top: 280%;
+    margin-top: 325%;
     padding: 30%;
     border: yellow 1px solid;
     border-radius: 15%;
     background-color: lightblue;
     color: white;
+    margin-left: 140%;
 }
 
 .input text1{
