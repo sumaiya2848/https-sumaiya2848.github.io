@@ -1,0 +1,90 @@
+body{
+    background: linear-gradient(to top right, lightpink, lightblue);
+    height: 100vh;
+}
+
+.header p{
+    margin-top: 3%;
+    margin-left: 2%;
+    float: left;
+    color: white;
+}
+
+.header button{
+    float: right;
+    margin-top: 3%;
+    margin-right: 2%;
+    padding: 2%;
+    border: yellow 1px solid;
+    border-radius: 15%;
+    background-color: lightblue;
+    color: white;
+}
+
+.guess h1{
+    color: white;
+    text-align: center;
+    margin-top: 12%;
+}
+
+.guess hr{
+    margin-top: -4%;
+    border-top: 2px solid white;
+    width: 100%;
+}
+
+.guess h2{
+    background-color: white;
+    padding: 2%;
+    text-align: center;
+    margin: auto;
+    width: 10%;
+    font-size: 300%;
+    position: relative;
+    box-shadow: 5px 5px hotpink;
+}
+
+.random1{
+    text-align: center;
+}
+
+.score{
+    margin-top: 8%;
+    float: left;
+    margin-left: 20%;
+}
+
+.score p{
+    color: white;
+}
+
+.enter{
+    margin-top: 8%;
+    float: right;
+    margin-right: 30%;
+}
+
+.text1{
+    position: absolute;
+    width: 12%;
+    height: 95px;
+    background-color: transparent;
+    border: white 2px solid;
+    text-align: center;
+    font-size: 50px;
+    color: green;
+}
+
+.submit{
+    margin-top: 280%;
+    padding: 30%;
+    border: yellow 1px solid;
+    border-radius: 15%;
+    background-color: lightblue;
+    color: white;
+}
+
+.input text1{
+    color: green;
+
+}
