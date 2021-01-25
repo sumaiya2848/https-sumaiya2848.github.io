@@ -3,6 +3,10 @@ body{
     height: 100vh;
 }
 
+.header{
+    position: relative;
+}
+
 .header p{
     margin-top: 3%;
     margin-left: 2%;
@@ -63,27 +67,28 @@ body{
     margin-top: 8%;
     float: right;
     margin-right: 30%;
+    position: relative;
 }
 
 .text1{
     position: absolute;
-    width: 13%;
-    height: 115px;
+    width: 350%;
+    height: 70%;
     background-color: transparent;
     border: white 2px solid;
     text-align: center;
-    font-size: 50px;
+    font-size: 250%;
     color: green;
 }
 
 .submit{
-    margin-top: 325%;
+    margin-top: 355%;
     padding: 30%;
     border: yellow 1px solid;
     border-radius: 15%;
     background-color: lightblue;
     color: white;
-    margin-left: 140%;
+    margin-left: 105%;
 }
 
 .input text1{
