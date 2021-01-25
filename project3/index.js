@@ -25,10 +25,10 @@ submit.addEventListener('click', function(){
         output.innerHTML = "Too high!";
         tries++;
     } else if (input == secretNumber){
+        document.getElementById('high').innerHTML = Math.max(lives.innerHTML, high);
         document.getElementById("random").innerHTML = secretNumber;
         output.innerHTML = "Correct Number! <br> Click <b>'Restart'</b> to play again!";
         document.querySelector('body').style.background = 'linear-gradient(to top right, orange, lightpink)';
-        document.getElementById('high').innerHTML = Math.max(lives.innerHTML, high);
     }
 } else {
     document.getElementById("random").innerHTML = secretNumber;
