@@ -1,0 +1,65 @@
+.modal {
+    display: none; 
+    position: fixed; 
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20%;
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 2%;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close2 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close3 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .all{
+    margin: auto;
+    width: 35%;
+  }
+
+.btn1{
+      border-radius: 20px;
+      padding: 5%;
+      margin-right: 5%;
+      margin-left: 5%;
+  }
+  
+  .btn2{
+    border-radius: 20px;
+    padding: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.btn3{
+    border-radius: 20px;
+    padding: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
